@@ -31,6 +31,8 @@ function timeBlockColor() {
 
 saveBtn.on("click",function() {
 
+    //siblings collect all the information within the same parent//
+
     var time = $(this).siblings(".hour").text();
 
     var plan = $(this).siblings(".plan").val();
@@ -39,6 +41,8 @@ saveBtn.on("click",function() {
 
 
 });
+
+//Function for when the page is refreshed the text remains//
 
 function planner() {
 
@@ -56,7 +60,7 @@ function planner() {
     });
 }
 
-
+//call functions//
 
 timeBlockColor();
 

@@ -27,6 +27,21 @@ function timeBlockColor() {
     })
 };
 
+//Function when save button is clicked, items are stored in local storage//
+
+saveBtn.on("click",function() {
+
+    var time = $(this).siblings(".hour").text();
+
+    var plan = $(this).siblings(".plan").value();
+
+    localStorage.setItem(time, plan);
+
+
+});
+
+
+
 timeBlockColor();
 
 

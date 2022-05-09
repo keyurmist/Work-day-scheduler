@@ -17,14 +17,16 @@ function timeBlockColor() {
         var currentHour = parseInt($(this).attr("id"));
 
         if (currentHour > hour) {
-            $(this).addclass(".future");
+            $(this).addclass("future");
 
         } else if (currentHour === hour) {
-            $(this).addClass(".present");
-            
-        } else {$(this).addClass(".past");
+            $(this).addClass("present");
+
+        } else {$(this).addClass("past");
     }
     })
 };
+
+timeBlockColor();
 
 

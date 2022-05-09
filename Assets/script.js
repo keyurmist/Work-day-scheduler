@@ -50,7 +50,7 @@ function planner() {
 
         if (currentPlan !==null) {
 
-            $(this).siblings(".plan").val(CurrentPlan);
+            $(this).siblings(".plan").val(currentPlan);
         }
 
     });

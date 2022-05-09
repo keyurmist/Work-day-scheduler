@@ -33,15 +33,33 @@ saveBtn.on("click",function() {
 
     var time = $(this).siblings(".hour").text();
 
-    var plan = $(this).siblings(".plan").value();
+    var plan = $(this).siblings(".plan").val();
 
     localStorage.setItem(time, plan);
 
 
 });
 
+function planner() {
+
+    $(".hour").each(function() {
+
+        var currentHour = $(this).text();
+
+        var currentPlan = localStorage.getItem(currentHour);
+
+        if (currentPlan !==null) {
+
+            $(this).siblings(".plan").val(CurrentPlan);
+        }
+
+    });
+}
+
 
 
 timeBlockColor();
+
+planner();
 
 

@@ -40,20 +40,23 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  border-left: 1px dashed black;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .past {
-  background-color: #3a6bf0;
+  background-color: #88a3ef;
   color: white;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #f08b85;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #9aee9a;
   color: white;
 }
 

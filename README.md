@@ -15,6 +15,8 @@ Below shows the preview of the planner and also the blue indicates that the time
 
 ![planner](./Assets/planner.png)
 
+Website link: https://keyurmist.github.io/Work-day-scheduler/
+
 
 
 
